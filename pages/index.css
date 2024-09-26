@@ -8,4 +8,10 @@
   margin: 0 auto;
   border: 1px solid red;
   background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav__link {
 }
