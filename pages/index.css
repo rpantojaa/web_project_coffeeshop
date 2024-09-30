@@ -1,17 +1,127 @@
 .page {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #fff;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  border: 1px solid red;
   background-image: url(../images/background_header.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.header {
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.header__text {
+  max-width: 729px;
+}
+
+.header__title {
+  font-size: 60px;
+  line-height: 72px;
+  margin: 0 0 28px;
+  max-width: 729px;
+}
+
+.header__span-accent {
+  display: block;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  font-weight: 500;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  max-width: 683px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  color: #838383;
+}
+
+.header__hours,
+.header__address {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__hours {
+  max-width: 240px;
+}
+
+.header__address {
+  max-width: 200px;
+}
+
+/* Estilos adicionais para garantir que o layout seja responsivo */
+@media screen and (max-width: 768px) {
+  .header__content {
+    flex-direction: column;
+  }
+
+  .header__text,
+  .header__image {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .header__image {
+    margin-top: 40px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 183px;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .nav__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__paragraph {
+  position: relative;
+  top: -10px;
+  left: 1000px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
 }
