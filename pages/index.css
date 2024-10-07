@@ -164,3 +164,20 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 580px;
+  color: #000000;
+}
