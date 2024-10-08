@@ -183,6 +183,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-bottom: 80px;
 }
 
 .reservation__form {
@@ -214,14 +215,6 @@
   margin-top: 8px;
 }
 
-.reservation__label-text {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .reservation__button {
   max-width: 385px;
   border-radius: 4px;
@@ -249,13 +242,19 @@
   margin-right: 8px;
 }
 
-.reservation__label-text {
+.reservation__label-guests,
+.reservation__label-date,
+.reservation__label-email {
   font-family: "Inter";
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
   margin: 32px 0 0;
+}
+
+.reservation__label-name {
+  margin: 0;
 }
 
 .reservation__label-agreement {
