@@ -186,13 +186,15 @@
   margin-bottom: 80px;
 }
 
-.reservation__form {
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 385px;
-  margin: 0;
-  padding: 0;
+}
+
+.reservation__form {
+  margin: 0 auto;
 }
 
 .form__group {
@@ -216,7 +218,7 @@
   padding: 15px 20px;
   margin: 0 0 32px;
   max-width: 385px;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Adicionado para não somar o padding no width */
 }
 
 .form__button {
