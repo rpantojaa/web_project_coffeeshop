@@ -1,0 +1,36 @@
+.footer {
+  background-color: #0a2850;
+  color: #ffffff;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 100px 108px 80px;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__circle {
+  display: flex;
+  position: absolute;
+  top: -128px;
+  left: -44px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  z-index: 0;
+  background-color: #fff;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
